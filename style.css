@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(181, 111, 160, 0.955);
+    padding: 10px;
+}
+.regexCheckerApp {
+    width: 100%;
+    max-width: 540px;
+    background: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.regexCheckerApp h1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+input {
+    flex: 1;
+    border: auto;
+    outline: auto;
+    background-color: rgba(194, 180, 180, 0.314);    
+    padding: 5px;
+}
+button {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: rgb(231, 231, 159);
+    border-radius: 35px;   
+}
